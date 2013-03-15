@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title></title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/mosaic.js"></script>
+		<style type="text/css">
+			.boxgrid {
+				width: 325px;
+				height: 260px;
+				margin: 10px;
+				float: left;
+				background: #83ab3f;
+				border: solid 2px #8399AF;
+				overflow: hidden;
+				position: relative;
+			}
+			.boxgrid img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				border: 0;
+			}
+			.boxcaption {
+				position: absolute;
+				background: #000;
+				height: 260px;
+				width: 100%;
+				opacity: .8;
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+			}
+			.captionfull .boxcaption {
+				top: 260;
+				left: 0;
+			}
+			.caption .boxcaption {
+				top: 220;
+				left: 0;
+			}
+		</style>
+
+	</head>
+
+<body>	
+	<div class="boxgrid captionfull">
+		<img src="img/jareck.jpg"/>
+		<div class="cover boxcaption">
+			<h3>Jarek Kubicki</h3>
+			<p>Artist<br/><a href="<a class="linkification-ext" title="Linkification: http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/" href="http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/">http://www.nonsensesociety.com/2009/03/art-by-jarek-kubicki/</a>" target="_BLANK">More Work</a></p>
+		</div>
+	</div>
+</body>
+</html>
